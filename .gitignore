@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# Training outputs
+runs/
+checkpoints/
+weights/
+
+# Dataset
+data/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/

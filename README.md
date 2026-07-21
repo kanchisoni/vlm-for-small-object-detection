@@ -106,11 +106,3 @@ Comparison and Final Analysis
 
 ---
 
-## Citation
-
-If referencing this work, please cite:
-
-> Soni, K. (2026). *Vision-Language Models for Small Object Detection, Classification,
-> Localisation and Explainability: A Case Study in Anti-Drone Surveillance.* Internship
-> Report, Department of Data Science and Engineering, IISER Bhopal. Supervisor: Dr. Akshay
-> Agrawal.

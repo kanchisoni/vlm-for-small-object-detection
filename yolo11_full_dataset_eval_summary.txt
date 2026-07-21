@@ -1,0 +1,23 @@
+YOLOv11 (fine-tuned, FULL Kaggle DUT Anti-UAV dataset) - Evaluation Report
+Generated: 2026-07-12T16:48:35.115848
+Base weights: yolo11s.pt (fine-tuned)
+Train images: 5200 | Val (test) images: 2600
+Epochs: 30 | Image size: 960 | Device: GPU (cuda:0)
+
+Precision:   0.9632
+Recall:      0.9031
+mAP50:       0.9451
+mAP50-95:    0.6378
+
+NOTE: This run uses the full Kaggle DUT Anti-UAV Detection dataset
+(thousands of images) instead of the original 50-image subset,
+providing a more robust evaluation of YOLOv11 fine-tuning performance
+compared to the small-sample run and the earlier VLM benchmarks.
+
+
+===== Final Held-Out TEST Set (unbiased, never used in training/val) =====
+Test images: 2200
+Precision:   0.9589
+Recall:      0.9394
+mAP50:       0.9692
+mAP50-95:    0.6917
